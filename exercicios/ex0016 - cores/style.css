@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Love';
+    src: url('font/love\ larry\ ttf.ttf') format('truetype');
+    /* tipos de format
+    openType = otf
+    truetype= tff
+    embedded-opentype
+    truetype-aat= apple advanced typography
+    svg
+    */}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to right,#B1B2A4, white );
+}
+main{
+    background-color: #627F9B;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #0d40afec;
+     width: 600px;
+    padding: 10px;
+    margin: auto;
+   
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-shadow: 1px 1px 0px black;
+    font-family: 'Love';
+    
+    }
+
+
+h2{
+    color: #DE3918;
+  
+
+}
+
+p{
+    text-align: justify;
+}
+
+#basico{
+    color: aqua;
+}
+
+div{
+    background-color: lightslategray;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+/*posso utilizar DIV: HOVER PARA TODOS*/
+#d1:hover{
+    background-color: #DE3918;
+}
+#d2:hover{
+    background-color: darkblue;
+}
+#d3:hover{
+    background-color: green;
+}
+
+div p {
+    display: none;
+}
+
+div:hover p{
+    display: block;
+    color: white;
+    background-color: red;
+    width: 300px;
+}
+
+/*  a:visited = fica dac or que eu selecionar ao clicar no link
+    active = ao clicar o link fica da cor que eu quiser
+    hover = ao passar no local fica da cor ou da forma que eu editar
+
+
+*/
+

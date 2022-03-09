@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tentr abrir esse site em vários dispositivos diferentes ou 
+        simplesmente aumente e diminua no seu navegador
+    </p>
+
+    <picture>
+        
+        <source media="(max-width: 750px)" srcset="imagem/P.png" type=" image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/M.png" type="image/png">
+        <img src="imagem/G.png" alt="imagem flexível">
+
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <P>Vamos aprender a reproduzir áudios em HTML5</P>
+    <audio src="midia/01 Too Much Love.m4a" controls autoplay></audio>
+
+   <!-- <audio preload="metadata" autoplay controls loop>
+        <source src="midia/01 Too Much Love.m4a"  type="audio/mpeg">  para mp3
+        <source src="midia/01 Too Much Love.m4a"  type="audio/ogg">
+        <source src="midia/01 Too Much Love.m4a"  type="audio/wav">
+    </audio>-->
+
+    <h1>Inserindo vídeos hospedados localmente </h1>
+    <P>Este vídeo está hospedado no meu próprio servidor</P>
+    <video src="midia/Laura.mp4" width="300px" height="500" poster="imagem/laura.jfif" controls autoplay loop></video>
+    <video src="midia/crepesculo.mp4" width="300px" height="500" controls></video>
+    
+    <!--<video controls >
+        <source src="midia/crepesculo.mp4" type="video/mp4">
+        <source src="midia/crepesculo.m4v" type="video/mp4">
+        <source src="midia/crepesculo.webm" type="video/mwebm">
+        <source src="midia/crepesculo.ogv" type="video/ogg">
+    </video>-->
+    <h1>PELO YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jGoM7atmJJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>PELO VIMEO</h1>
+    <iframe src="https://player.vimeo.com/video/676300668?h=702f206500" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/676300668">&quot;Stay Soft&quot; by Mitski</a> from <a href="https://vimeo.com/maeganhouang">Maegan Houang</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+</body>
+</html>
