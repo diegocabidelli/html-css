@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;900&family=Roboto+Slab:wght@200;400&family=Rubik&family=Teko:wght@400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+   
+    min-height: 100vh;
+    
+}
+
+:root{
+    --font0: 'Passion One', 'cursive';
+    --font1: 'verdana', 'Geneva', 'Tahoma', 'sans-serif';
+
+}
+/*CABEÇALHO */
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+header h1{
+    font-family: var(--font0);
+    padding-top: 50px;
+    font-variant: small-caps; /*Todas misuculo, mas as primeiras são maiores*/
+
+}
+header p{
+    font-family: var(--font1);
+    padding-bottom: 50px;
+
+}
+header a, footer a{
+    font-family: var(--font1);
+    text-decoration: none;
+    color: white;
+    font-weight:bolder ;
+
+}
+a:hover, footer a:hover{
+    text-decoration: underline;/*sublinhado no link*/
+}
+
+
+
+/*Section*/
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: green;
+    color: black;
+}
+
+section.imagem{
+    background-color: grey;
+    color: black;
+    color: white;
+}
+
+section.imagem p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*RODA PÉ */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
