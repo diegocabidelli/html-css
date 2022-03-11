@@ -1,21 +1,24 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;900&family=Roboto+Slab:wght@200;400&family=Rubik&family=Teko:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 
 *{
     margin: 0px;
     padding: 0px;
+   
 
 }
 body{
-   
+   font-family: var(--font1);
     min-height: 100vh;
     
 }
 
 :root{
-    --font0: 'Passion One', 'cursive';
     --font1: 'verdana', 'Geneva', 'Tahoma', 'sans-serif';
-
+    --font2: 'Passion One', 'cursive';
+    --font3: 'Sriracha', cursive;
 }
 /*CABEÇALHO */
 header{
@@ -24,10 +27,10 @@ header{
     color: white;
 }
 header h1{
-    font-family: var(--font0);
+    font-family: var(--font2);
     padding-top: 50px;
     font-variant: small-caps; /*Todas misuculo, mas as primeiras são maiores*/
-
+    font-size: 10vw;/*posso me basear pela largura da tela*/
 }
 header p{
     font-family: var(--font1);
@@ -54,6 +57,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw; /**/
 }
 
 section.normal{
@@ -67,8 +72,10 @@ section.imagem{
     color: white;
 }
 
+/*A ''borda'' que fica em volta da letra*/
 section.imagem p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.24);
 }
 
